@@ -12,6 +12,7 @@ void printUsage(){
 
 int main(int argc, char* argv[]){
     //1. Grab command line parameters and determine mode
+    //Comment Test
     options.add_options()
     ("c,create", "Create a DB")
     ("d,destroy", "Destroy a DB")
